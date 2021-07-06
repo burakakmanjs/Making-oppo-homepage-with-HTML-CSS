@@ -1,0 +1,683 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background: url(images1/tennis-topbanner-v4-pc.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar{
+    width: 100%;
+    height: 75px;
+    background: black;
+}
+
+.navbar ul{
+    float: right;
+    margin-right: 350px;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    height: 75px;
+    line-height: 75px;
+}
+
+.navbar ul li a{
+    color: darkslategray;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover{
+    color: white;
+    transition: 0.4s;
+}
+
+.navbar img{
+    margin: 30px 50px;
+    width: 120px;
+    cursor: pointer;
+}
+
+.containeryazı{
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+}
+
+.containeryazı h4{
+    color: white;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.containeryazı h3{
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 8px;
+}
+
+.containeryazı button{
+    width: 100px;
+    padding: 12px 10px;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+    opacity: 0.9;
+    font-family: sans-serif;
+}
+
+.picture{
+    position: absolute;
+    top: 155%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+}
+
+.picture h3{
+    color: black;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 550;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.picture h4{
+    color: black;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 5px;
+    opacity: 0.9;
+    margin: 10px 0;
+}
+
+.picture button{
+    width: 100px;
+    padding: 10px 20px;
+    border: none;
+    background: black;
+    color: white;
+    margin-top: 5px;
+    font-family: sans-serif;
+}
+
+.picture button:hover{
+    opacity: 0.7;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.picture img{
+    width: 700px;
+}
+
+.picture img:hover{
+    transform: scale(0.9);
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.picture1{
+    position: absolute;
+    top: 155%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+}
+
+.picture1 h3{
+    color: black;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 550;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.picture1 h4{
+    color: black;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 5px;
+    opacity: 0.9;
+    margin: 10px 0;
+}
+
+.picture1 button{
+    width: 100px;
+    padding: 10px 20px;
+    border: none;
+    background: black;
+    color: white;
+    margin-top: 5px;
+    font-family: sans-serif;
+}
+
+.picture1 img{
+    width: 350px;
+}
+
+.picture1 button:hover{
+    opacity: 0.7;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.picture1 img:hover{
+    transform: scale(0.9);
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.picture2{
+    position: absolute;
+    top: 250%;
+    left: 17%;
+    transform: translate(-50%,-50%);
+}
+
+.picture2 h3{
+    color: black;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 550;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.picture2 h4{
+    color: black;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 5px;
+    opacity: 0.9;
+    margin: 10px 0;
+}
+
+.picture2 button{
+    width: 100px;
+    padding: 10px 20px;
+    border: none;
+    background: black;
+    color: white;
+    margin-top: 5px;
+    font-family: sans-serif;
+}
+
+.picture2 img{
+    width: 350px;
+}
+
+.picture2 button:hover{
+    opacity: 0.7;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.picture2 img:hover{
+    transform: scale(0.9);
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.picture3{
+    position: absolute;
+    top: 250%;
+    left: 67%;
+    transform: translate(-50%,-50%);
+}
+
+.picture3 h3{
+    color: black;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 550;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.picture3 h4{
+    color: black;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 5px;
+    opacity: 0.9;
+    margin: 10px 0;
+}
+
+.picture3 button{
+    width: 100px;
+    padding: 10px 20px;
+    border: none;
+    background: black;
+    color: white;
+    margin-top: 5px;
+    font-family: sans-serif;
+}
+
+.picture3 img{
+    width: 700px;
+}
+
+.picture3 button:hover{
+    opacity: 0.7;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.picture3 img:hover{
+    transform: scale(0.9);
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.main{
+    position: absolute;
+    top: 385%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 105%;
+    height: 150%;
+    background: rosybrown;
+}
+
+.main h3{
+    color: black;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.img{
+    position: absolute;
+    top: 371%;
+    left: 18%;
+    transform: translate(-50%,-50%);
+}
+
+.img h4{
+    color: black;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+.img h4:hover{
+    transform: translateY(-10px);
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.img img{
+    width: 350px;
+}
+
+.img img:hover{
+    transform: scale(0.9);
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.img1{
+    position: absolute;
+    top: 352%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.img1 h4{
+    color: black;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+.img1 h4:hover{
+    transform: translateY(-10px);
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.img1 img{
+    width: 350px;
+    background-size: cover;
+    background-position: center;
+}
+
+.img1 img:hover{
+    transform: scale(0.9);
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.img2{
+    position: absolute;
+    top: 357%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+}
+
+.img2 h4{
+    color: black;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+.img2 h4:hover{
+    transform: translateY(-10px);
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.img2 img{
+    width: 350px;
+    background-size: cover;
+    background-position: center;
+}
+
+.img2 img:hover{
+    transform: scale(0.9);
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.img3{
+    position: absolute;
+    top: 410%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.img3 h4{
+    color: black;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+.img3 h4:hover{
+    transform: translateY(-10px);
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.img3 img{
+    width: 350px;
+    background-size: cover;
+    background-position: center;
+}
+
+.img3 img:hover{
+    transform: scale(0.9);
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.footer{
+    position: absolute;
+    top: 537%;
+    left: 50%;
+    height: 150vh;
+    transform: translate(-50%,-50%);
+    background: black;
+    width: 105%;
+}
+
+.footer h3{
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    margin: 50px 80px;
+}
+
+.footer ul{
+    margin: -30px 80px;
+}
+
+.footer ul li{
+    list-style: none;
+    margin-top: 12px;
+}
+
+.footer ul li a{
+    color: gray;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.footer ul li a:hover{
+    opacity: 0.9;
+}
+
+.footeryazı{
+    position: absolute;
+    top: 560%;
+    left: 9%;
+    transform: translate(-50%,-50%);
+}
+
+.footeryazı p{
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.footeryazı h4{
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    display: inline-block;
+    margin: 0 20px;
+    margin-left: -1px;
+    cursor: pointer;
+}
+
+.footeryazı h6{
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.social-bar{
+    position: absolute;
+    top: 580%;
+    left: 9%;
+    transform: translate(-50%,-50%);
+}
+
+.social-bar i{
+    background-color: gray;
+    font-size: 20px;
+    margin: 0 5px;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.social-bar i:hover{
+    transition: 0.4s;
+    transform: scale(1)
+    rotate(360deg);
+    color: red;
+}
+
+
+.footer1{
+    position: absolute;
+    top: 485.5%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+}
+
+.footer1 ul{
+    margin: -30px 80px;
+}
+
+.footer1 ul li{
+    list-style: none;
+    margin-top: 12px;
+}
+
+.footer1 ul li a{
+    color: gray;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.footer1 ul li a:hover{
+    opacity: 0.9;
+}
+
+.footer1 h3{
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    margin: 50px 80px;
+}
+
+.footer2{
+    position: absolute;
+    top: 490.3%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.footer2 ul{
+    margin: -30px 80px;
+}
+
+.footer2 ul li{
+    list-style: none;
+    margin-top: 12px;
+}
+
+.footer2 ul li a{
+    color: gray;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.footer2 ul li a:hover{
+    opacity: 0.9;
+}
+
+.footer2 h3{
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    margin: 50px 80px;
+}
+
+.footer3{
+    position: absolute;
+    top: 472%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+}
+
+.footer3 ul{
+    margin: -30px 80px;
+}
+
+.footer3 ul li{
+    list-style: none;
+    margin-top: 12px;
+}
+
+.footer3 ul li a{
+    color: gray;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.footer3 ul li a:hover{
+    opacity: 0.9;
+}
+
+.footer3 h3{
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    margin: 50px 80px;
+}
+
+.footerxyazı{
+    position: absolute;
+    top: 600%;
+    left: 16.3%;
+    transform: translate(-50%,-50%);
+}
+
+.footerxyazı p{
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.footerxyazı h5{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: white;
+    margin-top: 10px;
+}
+
+.footerxyazı h3{
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+
+
